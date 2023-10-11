@@ -1,0 +1,7 @@
+<?php
+$GLOBALS['PHP_DIR'] = __DIR__."/" ;
+$GLOBALS['DOCUMENT_DIR'] =  "/" ;
+$GLOBALS['IMG_DIR'] =  $GLOBALS['DOCUMENT_DIR']."images/";
+$GLOBALS['IMG_DIR'] =  $GLOBALS['DOCUMENT_DIR']."uploads/";
+$GLOBALS['CSS_DIR'] = $GLOBALS['DOCUMENT_DIR']."css/" ;
+$GLOBALS['JS_DIR'] = $GLOBALS['DOCUMENT_DIR']."js/" ;
