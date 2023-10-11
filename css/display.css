@@ -1,0 +1,11 @@
+.msg-Error{
+    text-align: center;
+}
+
+.msg-Error{
+    text-transform: capitalize;
+    font-size: 2em;
+    border: 1px solid blanchedalmond;
+    border-radius: 2px;
+
+}

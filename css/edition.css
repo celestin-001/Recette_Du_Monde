@@ -1,0 +1,18 @@
+.delete{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: red;
+}
+
+.delete .delete-img{
+    text-align: center;
+}
+
+.delete h1{
+    background: cyan;
+    border-radius: 2px;
+    color:black;
+    text-transform: uppercase;
+}

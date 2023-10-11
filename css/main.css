@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    letter-spacing: 0.2em;
+    overflow: hidden;
+}
+header,footer{
+    height: 80px;
+    width: 100%;
+    position: relative;
+    color: white;
+    background: url("../images/header.jpg");
+    background-size: cover;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+
+}
+
+#absolute{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.7);
+    animation: slidown 3s;
+}
+h2{
+    font-family:eufm10 ;
+}
+
+#visible{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/* le contenu de mon templette */
+.injected-content{
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    color: white;
+    background: url("../images/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.back{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+.display{
+    display:none;
+}
+.backs{
+    filter: contrast(500%);
+}
+#logo{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: 'Tilt Prism';
+    src: url("font/TiltPrism-Regular-VariableFont_XROT,YROT.ttf") format('truetype');
+}
+
+#title-page{
+    width: 200px;
+    text-align: center;
+    font-family:'Tilt Prism' ;
+}
+@keyframes slidown {
+    0%{
+        transform: translateY(-200px);
+        opacity: 0;
+        background: white;
+    }
+    50%{
+        transform: translate(0);
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(0px);
+    }
+}
+@keyframes slidown2 {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+        display: initial;
+    }
+    50%{
+        transform: translate(0);
+        opacity: 1;
+        display: initial;
+    }
+    100%{
+        transform: translateY(-400px);
+        display: initial;
+    }
+}
+
+.anim{
+    animation: slidown 3s;
+}
+#header:hover{
+    transform: translateY(200px);
+}
+#hidden{
+    color: white;
+    top: 100%;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+#hidden a{
+    color: white;
+    font-size: 1.2em;
+}
+/*#hidden h2{
+    background: ;
+}*/
+.elem{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7; /* Définit la hauteur de ligne */
+    text-align: justify; /* Justifie le texte pour un alignement des deux côtés */
+    margin: 0 auto; /* Centre le paragraphe horizontalement */
+    max-width: 100%;
+    font-weight: bold;
+}
+.hid{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#search{
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+}
+#in,#out{
+    margin: 10px;
+}
+hr{
+    width: 3px;
+    height: 20px;
+    color: black;
+    background-color: black;
+    border: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+#res{
+    background: white;
+    border: 0;
+    outline-color: white;
+    width: 100%;
+
+}
+
+/*Pied des pages */
+.foot{
+    height: 50px;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot .foot-content{
+    background-color: black;
+}
+
+.foot .foot-content a{
+    color: red;
+}
+#delete{
+    background: transparent;
+    border: none;
+}
