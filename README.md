@@ -35,7 +35,6 @@ Les principales fonctionnalités de l'application sont les suivantes :
 
 - **Langages** : PHP, HTML, CSS, JavaScript.
 - **Base de Données** : MySQL.
-- **Frameworks ou Bibliothèques** : Vous pouvez mentionner ici les frameworks ou bibliothèques utilisés dans votre projet.
 
 ## Configuration de la Base de Données
 
@@ -50,14 +49,4 @@ Assurez-vous de configurer votre base de données en utilisant le fichier `DB_co
 3. Importez la structure de la base de données à l'aide des fichiers SQL fournis, ou configurez la base de données manuellement.
 
 4. Lancez l'application en accédant à la page d'accueil via le fichier `index.php`.
-
-## Auteur
-
-[Ajoutez votre nom et éventuellement vos informations de contact ici.]
-
-## Licence
-
-[Indiquez ici la licence sous laquelle vous publiez votre projet. Par exemple, MIT License, Apache License, etc.]
-
-N'hésitez pas à personnaliser ce README avec des détails spécifiques à votre projet, tels que les technologies utilisées, les instructions d'installation, et vos informations de contact.
 
